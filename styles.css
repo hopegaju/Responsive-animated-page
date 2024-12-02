@@ -129,10 +129,27 @@ section{
     padding-left: 13px 32px;
     background: var(--main-color);
     border: 2px solid transparent;
-    border-radius: 7px;
+    border-radius: 3px;
     color: var(--text-color);
     font-size: 15px;
     font-weight: 500;
     transition: all .6S ease;
     margin-right: 20px;
+}
+
+.btn:hover{
+    transform: scale(1.1);
+}
+.price{
+    display: flex;
+    align-items: center;
+    font-size: 28px;
+    font-weight: bold;
+    color: var(--text-color);
+}
+.price span{
+    font-size: 17px;
+    font-weight: 400;
+    color: var(--main-color);
+    margin-left: 10px;
 }
