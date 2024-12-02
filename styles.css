@@ -82,6 +82,7 @@ header{
 }
 
 section{
+    position: relative;
     padding: 0 14%;
 }
 .hero{
@@ -102,7 +103,7 @@ section{
 }
 
 .hero-text h1 {
-    font-size: var(--big-font);
+    font-size: 4rem;
     font-weight: 900;
     margin: 15px 0;
 }
@@ -152,4 +153,23 @@ section{
     font-weight: 400;
     color: var(--main-color);
     margin-left: 10px;
+}
+.icons{
+    position: absolute;
+    top: 50%;
+    padding: 0 7%;
+    transform: translateY(-50%);
+    display: flex;
+}
+.icons i{
+    display: block;
+    margin: 35px 0;
+    color: var(--text-color);
+    font-size: 23px;
+    transition: all .6s; 
+}
+
+.icons i:hover{
+    transform: translateY(-5px);
+    color: var(--main-color);
 }
